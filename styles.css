@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+	font-style: oblique;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #FFFFFF;
+    color: white;
+    flex-direction: column;
+}
+
+.countdown-container {
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    font-size: 1rem; /* Verkleinert die Schriftgröße der Überschrift */
+    position: absolute;
+    top: -45px; /* Leicht nach oben versetzt */
+	color: black;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Abstand zwischen den Zeiteinheiten */
+}
+
+.time-unit {
+    text-align: center;
+}
+
+.time-unit span {
+    font-size: 2rem;
+    display: block;
+	color: black;
+}
+
+.time-unit p {
+    margin: 0;
+    font-size: 0.75rem;
+	color: black;
+}
